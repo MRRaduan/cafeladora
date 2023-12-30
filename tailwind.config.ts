@@ -42,6 +42,13 @@ const config: Config = {
       "halloween",
       "black",
       "dracula",
+      "corporate",
+      "bumblebee",
+      "lofi",
+      "dim",
+      "nord",
+      "sunset",
+      "coffee",
     ],
   },
 };

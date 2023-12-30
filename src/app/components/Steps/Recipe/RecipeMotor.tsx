@@ -31,8 +31,6 @@ class RecipeMotor {
 
   getCoffeeBeans(): number {
     const selectedRatio = this.getSelectedRatioKeyValue();
-    console.log("[selectedRatio]: ", selectedRatio);
-    console.log("[this.prefferedCoffeeBrewed]: ", this.prefferedCoffeeBrewed);
     const coffeeBeans = this.prefferedCoffeeBrewed / selectedRatio[0];
     return coffeeBeans;
   }

@@ -25,14 +25,14 @@ export default function Initial() {
   };
 
   return (
-    <section className="py-12 pt-32 h-4/6 min-h-min items-center w-full">
+    <section className="py-12 pt-32 h-svh min-h-min items-center w-full">
       <form
         onSubmit={handleSubmit((data) => handleNextStep(data))}
         action=""
-        className="flex flex-col items-center container mx-auto px-4 "
+        className="flex flex-col items-center container mx-auto px-4"
       >
         <div>
-          <h1 className="text-4xl lg:text-6xl  font-bold color-blue text-center">
+          <h1 className="text-4xl lg:text-6xl  font-bold color-blue text-center mt-28">
             Quanto de <span className="text-secondary">pó</span> preciso pra
             passar
           </h1>
