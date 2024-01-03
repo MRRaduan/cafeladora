@@ -15,15 +15,6 @@ const Header = () => {
                 </div>
               </a>
             </div>
-            <div className="flex-none">
-              <ul className="menu menu-horizontal px-1">
-                <li>
-                  <a href="https://raduan.me/" target="_blank">
-                    raduan.me
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </nav>
       </header>

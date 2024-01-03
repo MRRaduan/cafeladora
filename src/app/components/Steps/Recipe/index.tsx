@@ -235,14 +235,14 @@ const Recipe = ({ recipeData }: TRecipeProps) => {
                   >
                     <div className="collapse-title font-medium">
                       5. Faça o último despejo de água mirando no pó que fica
-                      nas extremidades do filtro
+                      nas extremidades do filtro e finalize no centro
                     </div>
                     <div className="collapse-content text-sm">
                       <p>
-                        Para ter maior preoveito sobre a quantidade de pó de
-                        café que foi utilizada, é importante fazer total uso
-                        dele. Essa etapa evita disperdícios e também aproveita
-                        total daquilo que o café tem a oferecer.
+                        Para ter maior proveito sobre a quantidade de pó de café
+                        que foi utilizada, é importante fazer total uso dele.
+                        Essa etapa evita disperdícios e também aproveita total
+                        daquilo que o café tem a oferecer.
                       </p>
                     </div>
                   </div>
