@@ -33,13 +33,15 @@ export default function Initial() {
       >
         <div>
           <h1 className="text-4xl lg:text-6xl  font-bold color-blue text-center mt-28">
-            Quanto de <span className="text-secondary">pó</span> preciso pra
+            <br />
+            quanto de <span className="text-secondary">pó</span> preciso pra
             passar
           </h1>
           <div className="flex justify-center py-4">
             <label className="form-control w-28">
               <input
                 type="number"
+                pattern="\d*"
                 className="input input-bordered input-lg"
                 defaultValue={7}
                 min={1}
@@ -71,7 +73,8 @@ export default function Initial() {
             </div>
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold color-blue text-center ">
-            de <span className="text-secondary">cafézin</span>? 🤔
+            de <span className="text-secondary">cafézin</span>? &nbsp;
+            <span className="text-7xl">🤔</span>
           </h2>
           <p className="text-center d-block text-base pt-8"></p>
         </div>

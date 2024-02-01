@@ -46,6 +46,7 @@ const Intensity = ({ nextStep, previousStep }: TIntensityProps) => {
         <h1 className="text-2xl font-bold color-blue text-center pt-4">
           Escolha a intensidade
         </h1>
+        <span className="text-center mx-auto block">arraste para mudar</span>
         <div className="h-4/6 flex justify-center flex-col">
           <div className="container px-4 mx-auto md:w-6/12 ">
             <input

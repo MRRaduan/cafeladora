@@ -25,12 +25,13 @@ const Loading = () => {
   );
 };
 
-type TRecipeProps = {
+export type TRecipeProps = {
   recipeData: any;
+  hasLoading?: boolean;
 };
 
-const Recipe = ({ recipeData }: TRecipeProps) => {
-  const [showLoading, setShowLoading] = useState(true);
+const Recipe = ({ recipeData, hasLoading }: TRecipeProps) => {
+  const [showLoading, setShowLoading] = useState(hasLoading);
   useEffect(() => {
     setTimeout(() => {
       setShowLoading(false);
@@ -57,7 +58,7 @@ const Recipe = ({ recipeData }: TRecipeProps) => {
                     : recipeData.ml}{" "}
                   {recipeData.unit}{" "}
                 </span>{" "}
-                de café <br />
+                de café pronto <br />
                 <span className="font-light mt-0 pt-0">
                   você vai precisar de..
                 </span>
@@ -65,9 +66,9 @@ const Recipe = ({ recipeData }: TRecipeProps) => {
               <div className="mt-8 flex flex-col items-center">
                 <div className="indicator">
                   <div className="indicator-item indicator-bottom">
-                    <button className="btn btn-sm btn-secondary shadow-lg text-white">
-                      compartilhar
-                    </button>
+                    {/* <button className="btn btn-sm btn-secondary shadow-lg text-white">
+                      copiar
+                    </button> */}
                   </div>
                   <div className="stats stats-vertical md:stats-horizontal shadow-lg border border-base-200 mx-auto">
                     <div className="stat">

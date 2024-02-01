@@ -36,7 +36,9 @@ const Steps = () => {
           previousStep={handlePreviousStep}
         />
       )}
-      {currentStep === "RECIPE" && <Recipe recipeData={recipeData} />}
+      {currentStep === "RECIPE" && (
+        <Recipe recipeData={recipeData} hasLoading />
+      )}
     </>
   );
 };
